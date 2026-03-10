@@ -9,11 +9,28 @@
 <body>
     <nav>
         <ul>
-            <li><a href="index.html">Project 1</a></li>
+            <li><a href="index.html" target="_blank">Project 1</a></li>
             <li><a href="index2.html">Project 2</a></li>
-            <li><a href="index3.html">Project 3</a></li>
+            <li><a href="index3.html" target="_blank">Project 3</a></li>
         </ul>
     </nav>
-    <h1>Project 2</h1>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+        <form action="">
+            <p><label for="">Height in CM: </label><input type="text" id="height" required></p>
+            <p><label for="">Weight in KG: </label><input type="text" id="weight" required></p>
+            <button type="submit">Calculate BMI</button>
+            <div class="result"></div>
+            <div class="weight-guide">
+                <h2>BMI Weight Guide</h2>
+                <p>Underweight: less than 18.5</p>
+                <p>Normal: between 18.5 and 24.9</p>
+                <p>Overweight: between 25 and 29.9</p>
+                <p>Obese: 30 or more</p>
+            </div>
+        </form>
+    </div>
+
+    <script src="index2.js"></script>
 </body>
 </html>
