@@ -1,3 +1,7 @@
+body{
+    background-color: #212121;
+    color: white;
+}
 nav{
     width: 100%;
     display: flex;
@@ -20,6 +24,23 @@ a{
     font-weight: bold;
 }
 li a:hover{
-    background-color: white;
     color: black;
 }
+
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    font-size: 40px;
+    background-color: orange;
+    font-weight: bold;
+    padding: 20px 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
