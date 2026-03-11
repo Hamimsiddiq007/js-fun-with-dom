@@ -92,6 +92,8 @@ li a:hover{
 .result p{
     margin: 8px 0;
     font-size: 15px;
+    font-weight: bold;
+    color: black;
 }
 
 .lowOrHi{
