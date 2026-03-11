@@ -47,7 +47,7 @@ li a:hover{
 
 #wrapper p{
     margin: 6px 0;
-    color: #555;
+    color: #050303;
 }
 
 .form{
@@ -65,7 +65,7 @@ li a:hover{
     padding: 10px;
     font-size: 16px;
     border-radius: 6px;
-    border: 1px solid #ccc;
+    border: 1px solid #0a0505;
     margin-bottom: 15px;
 }
 
@@ -75,7 +75,7 @@ li a:hover{
     font-size: 16px;
     border: none;
     border-radius: 6px;
-    background: #667eea;
+    background: #6677c3;
     color: white;
     cursor: pointer;
     transition: 0.3s;
@@ -91,7 +91,7 @@ li a:hover{
 
 .result p{
     margin: 8px 0;
-    font-size: 15px;
+    font-size: 25px;
     font-weight: bold;
     color: black;
 }
@@ -99,5 +99,8 @@ li a:hover{
 .lowOrHi{
     margin-top: 10px;
     font-weight: bold;
-    color: #764ba2;
+    color: #0c0711;
+}
+#newGame {
+  cursor: pointer;
 }
